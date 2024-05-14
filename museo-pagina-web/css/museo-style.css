@@ -1,0 +1,128 @@
+@charset "utf-8";
+body {
+}
+.nav-principal {
+    background-color: #6B3000;
+    padding: 30px;
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.nav-style {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #FFD842;
+}
+.nav-principal .nav-link  {
+    margin: 10px;
+    color: #FFFFFF;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+footer {
+    padding: 40px;
+    background-color: #FFD842;
+}
+.div-cuerpo-contenido {
+    padding: 50px;
+    background-color: #DB4649;
+}
+.parrafo-style-1 {
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+.h2-style-1 {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    padding: 20px;
+    font-style: italic;
+}
+.container-fluid .container {
+    margin-left: auto;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+.body-style .container {
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+.h1-style1 {
+    padding: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.div-grid-yellow {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    background-color: #FFD842;
+}
+
+
+
+.form-style-1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.body-style {
+    background-color: #A9A9A9;
+}
+.div-nav-style {
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-left: 50pxpx;
+    margin: 0;
+    background-color: #FFD842;
+}
+.row .col-lg-12.div-nav-style .form-inline {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.ul-style1 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.container-fluid .row .col-lg-12.div-nav-style {
+}
+.row .col-lg-12.div-nav-style .form-inline.my-lg-0.form-style-1 {
+    margin: 30px;
+}
+.row .col-lg-12.div-nav-style .form-inline {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+.container-fluid .container .card.col-md-4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.p-style1 {
+    padding-top: 10px;
+    padding-right: 230px;
+    padding-left: 230px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.img-style1 {
+    top: center;
+}
+.h4-style1 {
+    padding: 20px;
+}
+.h5-style1 {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
