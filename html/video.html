@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Video</title>
+    <link rel="stylesheet" href="../css/Estilo_mi_pagina.css">
+    <style>
+       header, nav, main, footer {
+           width: 100%;
+        }
+       video{
+           display: inline-block;
+           overflow: auto;
+           width: 300px;
+           height: auto;
+        }
+ section{
+            width: 25%;
+            display: inline-block;
+            margin: 5px;
+            height: 300px;
+            overflow:auto;
+            
+          }
+        main{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <header>
+       <h1>Videos</h1>
+   </header>
+   <nav>
+       <ul>
+<li><a href="../index.html">Inicio</a></li>
+  <li><a href="lista.html">Listas</a></li>
+  <li><a href="enlaces.html">Enlaces</a></li>
+  <li><a href="../html/tablas.html">Tablas</a></li>
+  <li><a href="../html/imagenes.html">Imagenes</a></li>
+  <li><a href="../html/audio.html">Audio</a></li>
+  <li><a href="../html/video.html">Videos</a></li>
+  <li><a href="../html/formularios.html">Formularios</a></li>
+          </ul>
+   </nav>
+   <main>
+       <section>
+           <h2>video1</h2>
+           <p>Estoy inspirado en temas mas relacionados al terror y suspenso. </p>
+            <video controls>
+           <source src="../medios/videos/ventana_horror.mp4" type="video/mp4">
+                 El navegador no soporta tu video.
+             </video>
+           
+       </section>
+       <section>
+           <h2>video2</h2>
+           <p>Gatos enjoados todos random, no se. </p>
+           <video  autoplay loop muted>
+           <source src="../medios/videos/gato_enojado.mp4" type="video/mp4">
+               El navegador no soporta tu video.
+             </video>
+            
+       </section>
+       <section>
+           <h2>video3</h2>
+           <video controls poster="../medios/imagenes/sol_cyberpunk.jpg">
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mollis a sapien id pretium. Morbi vitae elit convallis sapien ullamcorper accumsan. Phasellus in hendrerit neque, vel condimentum nisi. </p>
+             <source src="../medios/videos/basket.mp4" type="video/mp4">
+             </video>
+       </section>
+       <section>
+           <h2>video4</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mollis a sapien id pretium. Morbi vitae elit convallis sapien ullamcorper accumsan. Phasellus in hendrerit neque, vel condimentum nisi. </p>
+           <iframe width="400" height="auto" src="https://www.youtube.com/embed/iG9CE55wbtY?si=QNcshFYCqCmTHPuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+           
+       </section>
+   </main>
+   <footer>
+       <h6>Realizado por Isaac Barreiro Ruiz</h6>
+   </footer>
+</body>
+</html>

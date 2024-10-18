@@ -1,0 +1,328 @@
+<html>
+<head>
+   <title>Tablas</title>
+    <link rel="stylesheet" href="../css/Estilo_mi_pagina.css">
+    <style type="text/css">
+    #tablee{
+        text-align: center;
+        margin: 0 auto;
+        color: brown;
+        width: 100%;
+        border-style: solid;
+        border color: aquamarine;
+        border width: 5px;
+        }
+    #tablee th{
+        background-color: cadetblue
+        }
+    #tablee td{
+        background-color: darkgray;
+        text-align: left;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px;
+        }
+        
+/*#tabla2{
+    color: blue;
+}
+#tabla2 td{
+    color: chartreuse;
+    height: 30px;
+    padding: 20px;
+}*/
+.celda_centrada{
+    text-align: center;
+    padding:0px ;
+    background-color: aquamarine;
+    
+}
+.tablados{
+    width:100%;
+    border-collapse: collapse;
+    border-color:chocolate; 
+    color: crimson;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.tablados th, .tablados td{
+    border-color: blueviolet;
+    border-style:dashed;
+    border-radius: 5px;
+}
+.tablados th{
+    background-color: antiquewhite;
+        }
+.tablados td{
+    background-color: burlywood;
+        }
+#tabla_zebra {
+     width:100%;
+}
+#tabla_zebra tbody tr:nth-child(even) {
+    background-color:gainsboro;
+}
+#tabla_zebra tbody tr:nth-child(odd) {
+    background-color:white;
+}
+#tabla_zebra thead tr {
+    background-color:#855E6E;
+}
+#tabla_zebra th{
+    padding: 20px;
+}
+#tabla_zebra td{
+    padding: 30px;    
+}
+.tabla_hover{
+    width: 80%;
+    margin: 0 auto;   
+}
+
+.tabla_hover tr th{
+    background-color:#855E6E;
+    padding: 20px;
+ }
+.tabla_hover tr{
+    background-color: beige;
+    padding: 10px;
+}
+.tabla_hover tr:hover{
+    background-color:aqua;
+    color: aquamarine;
+    border: 5px solid green;
+}
+ </style>
+</head>
+    
+<body>
+ <header>
+     <h1>Tablas</h1>
+ </header>
+ <nav>
+     <ul>
+  <li><a href="../index.html">Inicio</a></li>
+  <li><a href="lista.html">Listas</a></li>
+  <li><a href="enlaces.html">Enlaces</a></li>
+  <li><a href="../html/tablas.html">Tablas</a></li>
+  <li><a href="../html/imagenes.html">Imagenes</a></li>
+  <li><a href="../html/audio.html">Audio</a></li>
+  <li><a href="../html/video.html">Videos</a></li>
+  <li><a href="../html/formularios.html">Formularios</a></li>
+    </ul>
+ </nav>
+ <main>
+  <section style="overflow-x: auto">
+      <h2>Tabla 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt vel enim id fermentum. Donec sed augue quis felis auctor hendrerit. Duis vulputate ipsum a venenatis accumsan. Maecenas id odio vulputate, pulvinar enim a, fermentum odio. Fusce ac felis non metus consectetur iaculis sit amet id lacus. </p>
+      <table id="tablee">
+                    <thead>
+                        <tr>
+                            <th>Matrícula</th>
+                            <th>Nombres</th>
+                            <th>Apellid Paterno</th>
+                            <th>Apellido materno</th>
+                            <th>Colegio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>202156983</td>
+                            <td>Ruzzdark</td>
+                            <td>Díaz</td>
+                            <td>Mendez</td>
+                            <td>Urbano</td>
+                        </tr>
+                        <tr>
+                            <td>202055057</td>
+                            <td>Isaac</td>
+                            <td>Barreiro</td>
+                            <td>Soto</td>
+                            <td>Gráfico</td>
+                        </tr>
+                        <tr>
+                            <td>202255557</td>
+                            <td>Camilo</td>
+                            <td>Jose</td>
+                            <td>Munive</td>
+                            <td>Arquitectura</td>
+                        </tr>
+                        <tr>
+                            <td>201905565</td>
+                            <td>Jose</td>
+                            <td>Melendez</td>
+                            <td>Garcia</td>
+                            <td>Urbano</td>
+                        </tr>
+                        <tr>
+                            <td>201908025</td>
+                            <td>Candelaria</td>
+                            <td>Garcia</td>
+                            <td>Lopez</td>
+                            <td>Gráfico</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+  </section>
+  <section style="overflow-x: auto">
+      <h2>Tabla 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt vel enim id fermentum. Donec sed augue quis felis auctor hendrerit. Duis vulputate ipsum a venenatis accumsan. Maecenas id odio vulputate, pulvinar enim a, fermentum odio. Fusce ac felis non metus consectetur iaculis sit amet id lacus. </p>
+       <table id="tabla2" class="tablados">
+            <thead>
+                <tr>
+                  <th style= "width:200px">Nombre</th>
+                  <th style="width: 50px">Edad</th>
+                  <th style= "width:200px" colspan="2">Telefono</th>
+                  <th style="width: 50px;">Cooperacion</th>
+                </tr>
+            </thead>
+           <tbody>
+                <tr>
+                  <td >Isaac Barreiro Ruiz</td>
+                  <td style="text-align:center; padding:0px;">22</td>
+                  <td>9239204792</td>
+                  <td>9239204792</td>
+                  <td  style="text-align: center; padding:0px; background-color: chartreuse" >100</td>
+               </tr>
+               <tr>
+                  <td>Juanito Alcachofas</td>
+                  <td style="text-align:center; padding:0px;">40</td>
+                  <td>09235702</td>
+                  <td>9239204792</td>
+                  <td   style="text-align: center; padding:0px; background-color: chartreuse">500</td>
+               </tr>
+               <tr>
+                  <td>Marco Rios</td>
+                  <td style="text-align:center; class="celda_centrada>22</td>
+                  <td>902384025</td>
+                  <td>9239204792</td>
+                  <td   style="text-align: center; padding:0px; background-color: chartreuse">200</td>
+               </tr>
+               <tr>
+                  <td>Diego Parada</td>
+                  <td style="text-align: center; padding:0px;">24</td>
+                  <td>3232384025</td>
+                   <td>9239204792</td>
+                  <td  style="text-align: center; padding:0px; background-color: chartreuse">200</td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>total</td>
+                  <td class="celda_centrada" style=background-color:darkblue;>1000</td>
+               </tr>
+           </tbody>
+       </table>
+  </section>
+  <section style="overflow-x: auto">
+      <h2>Tabla 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt vel enim id fermentum. Donec sed augue quis felis auctor hendrerit. Duis vulputate ipsum a venenatis accumsan. Maecenas id odio vulputate, pulvinar enim a, fermentum odio. Fusce ac felis non metus consectetur iaculis sit amet id lacus. </p>
+      <table id="tabla_zebra">
+      <thead>
+         <th>Nombre</th>
+          <th>Edad</th>
+          <th>Deporte</th>
+          <th>Telefono</th>
+          <th>Email</th>
+      </thead>
+      <tbody>
+         <tr>
+          <td>Liliana Delgado</td>
+          <td>20</td>
+          <td>Volleyball</td>
+          <td>019340817483</td>
+          <td>Liliana@gmail.com</td>
+         </tr>
+         <tr>
+          <td>Gerardo Cuessy Solís</td>
+          <td>23</td>
+          <td>Skateboard</td>
+          <td>019408719834</td>
+          <td>Gerardo@gmail.com</td>
+         </tr>
+         <tr>
+          <td>Hector Barreiro Gea</td>
+          <td>19</td>
+          <td>Basketball</td>
+          <td>918247991</td>
+          <td>Hector@gmail.com</td>
+         </tr>
+         <tr>
+          <td>Maria de los Ánegeles Lopez López</td>
+          <td>21</td>
+          <td>Football</td>
+          <td>9182467834</td>
+          <td>Maria@gmail.com</td>
+         </tr>
+         <tr>
+          <td>Dominico de los Santos Lopez Arriaga</td>
+          <td>24</td>
+          <td>Karate</td>
+          <td>198264863</td>
+          <td>Dominico@gmail.com</td>
+         </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </section>
+  <section style="overflow-x: auto">
+      <h2>Tabla 4</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt vel enim id fermentum. Donec sed augue quis felis auctor hendrerit. Duis vulputate ipsum a venenatis accumsan. Maecenas id odio vulputate, pulvinar enim a, fermentum odio. Fusce ac felis non metus consectetur iaculis sit amet id lacus. </p>
+      <table class="tabla_hover">
+      <thead>
+         <th>Nombre</th>
+          <th>Edad</th>
+          <th>Deporte</th>
+          <th>Telefono</th>
+          <th>Email</th>
+      </thead>
+      <tbody>
+         <tr>
+          <td>Liliana Delgado</td>
+          <td class="">20</td>
+          <td>Volleyball</td>
+          <td>019340817483</td>
+          <td>Liliana@gmail.com</td>
+         </tr>
+         <tr>
+          <td>Gerardo Cuessy Solís</td>
+          <td>23</td>
+          <td>Skateboard</td>
+          <td>019408719834</td>
+          <td>Gerardo@gmail.com</td>
+         </tr>
+         <tr>
+          <td>Hector Barreiro Gea</td>
+          <td>19</td>
+          <td>Basketball</td>
+          <td>918247991</td>
+          <td>Hector@gmail.com</td>
+         </tr>
+         <tr>
+          <td>Maria de los Ánegeles Lopez López</td>
+          <td>21</td>
+          <td>Football</td>
+          <td>9182467834</td>
+          <td>Maria@gmail.com</td>
+         </tr>
+         <tr>
+          <td>Dominico de los Santos Lopez Arriaga</td>
+          <td>24</td>
+          <td>Karate</td>
+          <td>198264863</td>
+          <td>Dominico@gmail.com</td>
+         </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </section>
+ </main>
+ <footer>
+    <h6>Realizado por Isaac Barreiro Ruiz</h6>
+ </footer>
+</body>
+</html>
